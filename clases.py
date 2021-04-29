@@ -1,31 +1,37 @@
 class superficie_rectangulo :
     def _init_(self, b,a):
-        self._base = b
-        self._altura = a
+        self.base = b
+        self.altura = a
 
     def multiplicacionbaseporaltura():
         resultado = self.base * self.altura
         return resultado
 
-print.obj multiplicacionbaseporaltura(3,6)
+
 
     
 
 
 
-#class superficie_triangulorectangulo:
- #   def _init_(self,b,a):
- #       self._base = b
-  #      self.altura = a
+class Superficie_triangulorectangulo:
+    def _init_(self,b,a):
+        self.base = b
+        self.altura = a
 
-   # def operacionbaseporaltura():
-    #    resultado = self.base * self.altura
-     ##   return resutado 
+    def Operacionbaseporaltura():
+        resultado = self.base * self.altura
+        return resutado 
 
 
 
-#class coordenada 
+class Coordenada:
+    def __init__(self ,x,e):
+        self.punto1 = x
+        self.punto2 = e 
 
+    def calcularcoordenada():
+        resultado = self.punto1 + self.punto2 / 2
+        return resultado 
 
 
 
